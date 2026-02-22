@@ -1,6 +1,6 @@
 def test_app_import():
     from app import app
-    assert app is None  # break test
+    assert app is not None
 
 
 def test_app_responds():
