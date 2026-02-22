@@ -1,8 +1,7 @@
-import pytest
-
 def test_app_import():
     from app import app
     assert app is not None
+
 
 def test_app_responds():
     """Smoke test: app responds to a request."""
