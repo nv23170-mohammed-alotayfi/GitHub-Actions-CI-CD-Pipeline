@@ -7,7 +7,7 @@ todos = []
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Todo SaaS API"})
+    return jsonify({"message": "Todo SaaS API - Updated"})  # Small update for demo
 
 
 @app.route('/todos', methods=['GET'])
